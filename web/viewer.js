@@ -1498,10 +1498,10 @@ function webViewerInitialized() {
   }
 //#endif
 
-  if (!PDFViewerApplication.supportsPrinting) {
-    document.getElementById('print').classList.add('hidden');
-    document.getElementById('secondaryPrint').classList.add('hidden');
-  }
+  // if (!PDFViewerApplication.supportsPrinting) {
+  //   document.getElementById('print').classList.add('hidden');
+  //   document.getElementById('secondaryPrint').classList.add('hidden');
+  // }
 
   if (!PDFViewerApplication.supportsFullscreen) {
     document.getElementById('presentationMode').classList.add('hidden');
